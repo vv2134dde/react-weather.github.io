@@ -1,0 +1,13 @@
+.list {
+  margin: 58px auto;
+  list-style-type: none;
+  padding: 0;
+  width: 639px;
+}
+.list .el {
+  margin-top: 41px;
+  min-height: 105px;
+  background: linear-gradient(180deg, rgba(0, 33, 151, 0.3) 30%, rgba(36, 38, 70, 0) 80%);
+}
+
+/*# sourceMappingURL=WeatherInformation.module.css.map */

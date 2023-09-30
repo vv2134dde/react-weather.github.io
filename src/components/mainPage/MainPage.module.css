@@ -1,0 +1,100 @@
+.main {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 280px;
+  width: 514px;
+  height: 100vh;
+}
+.main .title {
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  font-size: 48px;
+  color: #FFFFFF;
+  margin-left: 81px;
+}
+.main .search {
+  font-style: normal;
+  display: block;
+  margin-top: 56px;
+  width: 514px;
+  height: 43px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  background-color: #FFFFFF;
+  color: black;
+  font-size: 25px;
+  font-weight: 400;
+}
+.main .search::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  cursor: url("./../../img/cursor/cursor.png"), pointer;
+}
+.main .wap {
+  position: absolute;
+  width: 68px;
+  height: 60px;
+  transform: translate(469px, -78px);
+}
+.main .wap hr {
+  width: 60px;
+  height: 0;
+  border: 1px solid #848282;
+  transform: rotate(90deg) translate(27px, 25px);
+}
+.main .wap button {
+  font-style: normal;
+  display: block;
+  border: none;
+  outline: none;
+  background: none;
+  font-weight: 400;
+  font-size: 36px;
+  color: #008DF3;
+  margin-left: 15px;
+  transform: translateY(-2px);
+  transition: all 0.3s;
+}
+.main .wap button:hover {
+  transform: scale(1.2);
+  color: #095993;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.main .p {
+  font-style: normal;
+  text-align: center;
+  margin-top: 36px;
+  font-weight: 400;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+.main .gps {
+  font-style: normal;
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  border: none;
+  background: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 25px;
+  color: #FF9900;
+  transition: all 0.3s;
+}
+.main .gps svg {
+  width: 23px;
+  height: 23px;
+  margin-right: 10px;
+  fill: #0477B8;
+  transition: all 0.3s;
+}
+.main button:hover {
+  color: red;
+  transform: scale(1.1);
+}
+.main button:hover svg {
+  fill: red;
+}
+
+/*# sourceMappingURL=MainPage.module.css.map */

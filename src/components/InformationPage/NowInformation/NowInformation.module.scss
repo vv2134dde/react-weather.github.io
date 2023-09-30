@@ -1,0 +1,56 @@
+.weather{
+  margin: 113px auto;
+  width: 563px;
+  height: 334px;
+  .title{
+    margin: 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFFFFF;
+  }
+  .wap{
+    display: flex;
+    justify-content: center;
+    img{
+      margin-top: 27px;
+      width: 211px;
+      height: 176px;
+    }
+    .value{
+      margin: 0 0 0 43px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 196px;
+      color: #FFFFFF;
+    }
+  }
+}
+.information {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1170px;
+  margin: 0 auto;
+
+  .container {
+    min-width: 185px;
+
+    h3 {
+      margin: 0;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      color: rgba(255, 255, 255, 0.63);
+    }
+
+    p {
+      margin: 28px 0 0;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      color: #FFFFFF;
+    }
+  }
+}

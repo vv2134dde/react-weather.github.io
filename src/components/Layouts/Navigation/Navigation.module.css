@@ -1,0 +1,68 @@
+.navigation {
+  display: flex;
+  height: 180px;
+  padding-left: 116px;
+  padding-top: 63px;
+  justify-content: space-between;
+}
+.navigation .wap {
+  min-width: 818px;
+}
+.navigation .wap h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  color: #FFFFFF;
+  margin: 0;
+}
+.navigation .wap a {
+  text-decoration: none;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.63);
+}
+.navigation .wap a p {
+  margin: 0;
+}
+.navigation .wap button {
+  padding: 0;
+  display: block;
+  width: 300px;
+  border: none;
+  background: none;
+  outline: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(255, 153, 0, 0.63);
+  float: right;
+  margin-right: 337px;
+  transition: all 0.3s;
+}
+.navigation .wap button svg {
+  width: 23px;
+  height: 23px;
+  margin-right: 10px;
+  fill: #0477B8;
+  fill-opacity: 0.6;
+  transition: all 0.3s;
+}
+.navigation .wap button:hover {
+  color: rgba(255, 0, 0, 0.63);
+  transform: scale(1.1);
+}
+.navigation .wap button:hover svg {
+  fill: red;
+}
+.navigation .text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #FFFFFF;
+  margin: 20px 93px 0 0;
+}
+
+/*# sourceMappingURL=Navigation.module.css.map */
